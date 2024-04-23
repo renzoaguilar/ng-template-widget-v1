@@ -8,6 +8,13 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <ng-template-widget widget-name="Widget"></ng-template-widget>
+
+  <script>
+    const widgetElement = document.querySelector('ng-template-widget');
+    widgetElement.addEventListener('widgetEvent', (event) => {
+      console.log('[widgetEvent] event listend')
+    });
+  </script>
 </body>
 </html>
