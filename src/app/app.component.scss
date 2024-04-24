@@ -21,7 +21,7 @@ p {
 }
 
 .content {
-  border: 1px dashed red;
+  border: 2px dashed red;
   border-radius: 5px;
   display: flex;
   padding: 0 16px;
@@ -74,7 +74,6 @@ svg.material-icons:not(:last-child) {
 
 .card.card-small {
   height: 16px;
-  width: 168px;
 }
 
 .card-container .card:not(.highlight-card) {
@@ -82,7 +81,7 @@ svg.material-icons:not(:last-child) {
 }
 
 .card-container .card:not(.highlight-card):hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 .card-container .card:not(.highlight-card):hover .material-icons path {
